@@ -19,46 +19,46 @@ class _AccueilPageState extends State<AccueilPage> {
           scrollPhysics: BouncingScrollPhysics(),
           pages: [
             PageViewModel(
-                titleWidget: Text(
-                  "Bienvenue dans E-report",
+                titleWidget: const Text(
+                  "Bienvenu(e) dans E-report App",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 30,
+                    fontSize: 35,
                     // color: Color.fromRGBO(158, 79, 194, 0)
                   ),
                 ),
                 body:
-                    "nous allons partir avec aisance nous allons partir avec aisance nous allons partiravec aisance nous allons partir avec aisance",
+                    "L'application qui vous permet de mettre en securité vos rapports de service",
                 image: Image.asset(
                   "assets/Personal site-rafiki.png",
                   height: 400,
                   width: 400,
                 )),
             PageViewModel(
-                titleWidget: Text(
-                  "e-report",
+                titleWidget: const Text(
+                  "E-report App",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 30,
+                    fontSize: 35,
                   ),
                 ),
                 body:
-                    "nous allons partir avec aisance nous allons partir avec aisance nous allons partiravec aisance nous allons partir avec aisance",
+                    "E-report vous offre un espace convivial pour prendre vos notes en prédication sans en perdre le moindre detail ",
                 image: Image.asset(
                   "assets/Notebook-rafiki.png",
                   height: 400,
                   width: 400,
                 )),
             PageViewModel(
-                titleWidget: Text(
-                  "e-report",
+                titleWidget: const Text(
+                  "E-report App",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 30,
+                    fontSize: 35,
                   ),
                 ),
                 body:
-                    "nous allons partir avec aisance nous allons partir avec aisance nous allons partiravec aisance nous allons partir avec aisance",
+                    "E-report vous permettra de remettre vos rapports de service dans le temps afin de contribuer à la bonne marche de l'organisation",
                 image: Image.asset(
                   "assets/Time management-rafiki.png",
                   height: 800,
@@ -68,18 +68,18 @@ class _AccueilPageState extends State<AccueilPage> {
           onDone: () {},
           onSkip: () {},
           showSkipButton: true,
-          skip: Text(
+          skip: const Text(
             "skip",
             style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 18,
                 color: Color.fromRGBO(110, 55, 135, 1)),
           ),
-          next: Icon(
+          next: const Icon(
             Icons.arrow_forward,
             color: Color.fromRGBO(110, 55, 135, 1),
           ),
-          done: Text(
+          done: const Text(
             "Done",
             style: TextStyle(
                 fontWeight: FontWeight.bold, fontSize: 18, color: Color.fromRGBO(110, 55, 135, 1)),
